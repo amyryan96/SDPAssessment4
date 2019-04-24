@@ -24,7 +24,7 @@ public class ApplicationController {
 	@RequestMapping("/")
 	public String welcome(HttpServletRequest request)
 	{
-		//request.setAttribute("mode", "MODE_HOME");
+		request.setAttribute("mode", "MODE_HOME");
 		return "welcomepage";
 	}
 	
